@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="“UTF-8”" />
+    <meta name= “viewport” content= “width=device-width, initial-scale=1.0">
+    <meta http-equiv="“X-UA-Compatible”" content="“ie" ="edge”" />
+    <title>Arnold Gym and Fitness</title>
+  </head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: "Baloo Bhaina 2", "cursive";
+      margin: 0px;
+      padding: 0px;
+      background: url(images/pexels-estudio-polaroid-3112004.jpg);
+      color: white;
+    }
+    .left {
+      display: inline-block;
+      /* border: 2px solid red; */
+      position: absolute;
+      left: 50px;
+      top: 9px;
+    }
+
+    .left img {
+      width: 50px;
+    }
+
+    .left div {
+      text-align: center;
+      margin-left: -28px;
+      font-size: 18px;
+      line-height: 16px;
+    }
+
+    .center {
+      /* border: 2px solid green; */
+      display: block;
+      width: 35%;
+      margin: 12px auto;
+      align-items: center;
+    }
+    .right {
+      display: inline-block;
+      /* border: 2px solid violet; */
+      position: absolute;
+      right: 34px;
+      top: 20px;
+    }
+    .navbar li {
+      display: inline-block;
+      font-size: 17px;
+    }
+
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 41px 18px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+      text-decoration: underline;
+      color: rgb(112, 184, 243);
+    }
+
+    .btn {
+      margin: 2px 10px;
+      background-color: black;
+      color: white;
+      padding: 2px 15px;
+      border: 2px solid greenyellow;
+      border-radius: 10px;
+      cursor: pointer;
+      font-family: "Baloo Bhaina 2", "cursive";
+    }
+
+    .btn:hover {
+      background-color: indianred;
+    }
+
+    .container {
+      border: 2px solid white;
+      margin: 86px 220px;
+      padding: 35px 40px;
+      width: 37%;
+      border-radius: 5px;
+    }
+
+    .form-group input {
+      font-family: "Baloo Bhaina 2", "cursive";
+      text-align: center;
+      display: block;
+      width: 370px;
+      padding: 7px;
+      border: 2px solid black;
+      margin: 9px auto;
+      font-size: 18px;
+      border-radius: 10px;
+    }
+
+    .container h1 {
+      text-align: center;
+    }
+
+    .container button {
+      display: block;
+      margin: 10px auto;
+      width: 320px;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <div class="left">
+        <!--Left box for logo-->
+        <img src="images/logo2.jpg" alt="" />
+        <div>Arnold Gym and Fitness</div>
+      </div>
+      <div class="center">
+        <!--Center for Navbar-->
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <!--Right box for details-->
+        <button class="btn">Call US Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join our Gym</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your name" />
+        </div>
+
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter email Address" />
+        </div>
+
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your age" />
+        </div>
+
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Gender" />
+        </div>
+
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Conatct number" />
+        </div>
+      </form>
+      <button class="btn">Submit</button>
+    </div>
+  </body>
+</html>
